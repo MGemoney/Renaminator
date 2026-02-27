@@ -1,0 +1,24 @@
+# Renameinator Configuration
+# Override these defaults via CLI flags or edit this file.
+
+# Maximum number of images per output folder before splitting
+max_images_per_folder: 800
+
+# Maximum folder size in MB before splitting
+max_folder_size_mb: 500
+
+# Number of times to retry a failed file copy
+max_copy_retries: 3
+
+# Delay in seconds between copy retries
+retry_delay_seconds: 0.5
+
+# Image file extensions to recognize
+image_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  - .gif
+  - .bmp
+  - .tiff
+  - .webp

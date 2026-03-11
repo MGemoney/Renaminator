@@ -52,6 +52,7 @@ function App() {
 
         const asinCol = findColumn(headers, ['asin'])
         const styleCol = findColumn(headers, [
+          'asinstyle',
           'style',
           'styleno',
           'stylenumber',
